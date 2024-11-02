@@ -9,7 +9,7 @@ To write a python program for creating Chat using TCP Sockets Links.
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
 ### SERVER
-
+```
 import socket
 import threading
 
@@ -42,10 +42,10 @@ def start_server():
         client_handler.start()
 
 start_server()
-
+```
 
 ### CLIENT
-
+```
 import socket
 
 def start_client():
@@ -66,7 +66,7 @@ def start_client():
 
 start_client()
 
-
+```
 ## OUPUT
 ![372019126-57ff8462-fdbc-4f1f-a474-60238fa2a006](https://github.com/user-attachments/assets/655563c4-63c1-4e84-8d83-cd2a45e2f318)
 
